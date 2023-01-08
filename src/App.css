@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     background-color: whitesmoke;
-    
     border: 0px;
     padding: 0px
 }
@@ -24,21 +23,37 @@ table {
     padding: 0px
   }
 
+  th {
+    width: 400px;
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: left;
+  }
+
   td {
     width: 200px;
     text-align: left;
     font-family: 'Raleway', serif;
   }
 
+  .smallCol {
+    width: 100px;
+  }
+
+  .mediumCol {
+    width: 200px;
+  }
+
+  .largeCol {
+    width: 400px;
+  }
+
   h1{
     text-align: center;
     text-transform: uppercase;
   }
-
-  h2{
-    text-transform: uppercase;
-  }
-
+  
   p {
     text-align: center;
   }

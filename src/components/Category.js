@@ -8,11 +8,12 @@ class Category extends React.Component {
                 <table>
                     <tbody>
                         <tr>
-                            <td></td>
-                            <td><h2>{this.props.display}</h2></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                            <td className="medCol"></td>
+                            <th className="largeCol">{this.props.display}</th>
+                            <td className="medCol"></td>
+                            <td className="smallCol"></td>
+                            <td className="smallCol"></td>
+                            <td className="smallCol"></td>
                         </tr>
                     </tbody>
                 </table>
