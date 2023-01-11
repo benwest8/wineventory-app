@@ -36,7 +36,7 @@ function App() {
           />
           {items.map(item => (
             <>
-              {(item.fields.Category[0] === category.id) && (
+              {(item.fields.Category[0] === category.id) && (item.fields.Available === true) && (
                 <Item
                   key={item.id}
                   subtype={item.fields.Subtype}
@@ -49,6 +49,7 @@ function App() {
               )}
             </>
           ))}
+          <br></br>
         </>
       ))}
       <p>Credit Card Service Fee Applies</p>
